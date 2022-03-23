@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo');
+.info{
+    width: 100%;
+    padding: 13px 0px;
+    background-color:#101E5D;
+    color: #fff;
+}
+.info ul, .content ul{
+    margin: 0px;
+    padding: 0px;
+}
+.info ul li, .content ul li{
+    float: left;
+    list-style: none;
+    margin-right: 25px;
+    padding-left: 0px;
+    margin-bottom: 7px;
+}
+.navbar-light .navbar-nav .nav-item{
+    margin-left: 15px;
+}
+.navbar-light .navbar-nav .nav-link {
+        color: rgba(0, 0, 0,1);
+        font-size: 14px;
+        text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #ffb400;
+  }
+  .navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active{
+  color: #ffb400;
+  font-weight: bold;
+}
+.carousel-caption{
+    text-align: left;
+}
+.carousel-caption h1{
+    text-transform: uppercase;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    color:  #ffb400;
+}
+.carousel-caption p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+@media (min-width: 280px) { 
+    .carousel-caption{
+        top: 4vh;
+        bottom: 0px;
+    }
+    .carousel-caption h1{
+        font-size: 0.8em;
+    }
+    .carousel-caption p{
+        font-size: 0.5em;
+     }
+}
+@media (min-width: 375px) { 
+    .carousel-caption{
+        top: 8vh;
+        bottom: 0px;
+    }
+    .carousel-caption h1{
+        font-size: 1.2em;
+    }
+    .carousel-caption p{
+        font-size: 0.9em;
+     }
+}
+@media (min-width: 576px) { 
+    .carousel-caption{
+        top: 40vh;
+        bottom: 0px;
+    }
+    .carousel-caption h1{
+        font-size: 1.8em;
+    }
+    .carousel-caption p{
+        font-size: 1.0em;
+     }
+}
+
+@media (min-width: 768px) { 
+    .carousel-caption{
+        top: 10vh;
+        bottom: 0px;
+    }
+    .carousel-caption h1{
+        font-size: 2.5em;
+    }
+    .carousel-caption p{
+        font-size: 1.2em;
+     }
+ }
+
+@media (min-width: 992px) { 
+    .carousel-caption{
+        top: 35vh;
+        bottom: 0px;
+    }
+    .carousel-caption h1{
+        font-size: 3.0em;
+    }
+    .carousel, .carousel-inner{
+        height: 85vh;
+    }
+    .carousel-caption p{
+        font-size: 1.3em;
+     }
+    
+ }
+
+@media (min-width: 1200px) { 
+    .carousel-caption{
+        top: 35vh;
+        bottom: 0px;
+    }
+    .carousel-caption h1{
+        font-size: 3.0em;
+    }
+    .carousel, .carousel-inner{
+        height: 85vh;
+    }
+    .carousel-caption p{
+        font-size: 1.3em;
+     }
+ }
+ .search{
+     width: 100%;
+     background-color: #ffb400;
+     padding: 40px 0px;
+ }
+ .search .form-control{
+     border-radius: 0px;
+ }
+ .image{
+     width: 100%;
+     height: auto;
+     position: relative;
+ }
+ .feature :hover.image:before{
+     background-color: rgba(16, 30, 93, 0.4);
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     content:"";
+
+ }
+ .forsale{
+     position: absolute;
+     top: 15px;
+     left: 15px;
+     padding: 5px 10px;
+     border: 1px;
+     text-transform: uppercase;
+     background-color: rgba(0, 0, 0,.4);
+     color: white;
+
+ }
+ .forsale h6{
+     margin: 0px;
+     padding: 0px;
+ }
+ .price{
+     bottom: 15px;
+     right: 15px;
+     position: absolute;
+     padding: 5px 10px;
+     color: #fff;
+     text-align: right;
+ }
+ .discount{
+     color: red;
+     text-decoration: line-through;
+     text-decoration-color: white;
+ }
+ .features, .best{
+     width: 100%;
+     background-color: #f9f9f9;
+ }
+ .content{
+     background-color: white;
+ }
+ .content i{
+     color:#ffb400 ;
+ }
+ .divider{
+     border-top: 1px solid #ccc;
+ }
+ .brd-left{
+     border-left: 1px solid #ccc;
+ }
+ .brd-left i{
+     color: #ccc;
+     padding: 10px 15px;
+ }
+ .best h3{
+     font-weight: bold;
+ }
+.inner .icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border:1px dotted #ffb400;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.icon i{
+    color: #ffb400;
+    font-size: 30px;
+    padding-top: 35px;
+    
+}
+.read h6{
+    background-color:#ffb400 ;
+    color: white;
+}
+.inner{
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0px;
+}
+.new{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: white;
+    border: 1px white;
+    background-color:rgba(0, 0, 0,.4);
+    padding: 8px 15px;
+}
+.first h6{
+    margin: 0;
+    padding: 0;
+}
+.rent{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+}
+.last{
+    width: 100%;
+    background-color: blue;
+}
+.info1{
+    height: 50vh;
+    position: relative;
+    background: red;
+    background-image: url("../images/vehicles/img-5.jpg");
+    background-position: center 70%;
+    background-size: cover;
+    padding: 20vh 0px;
+    
+}
+.info1:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    content: "";
+    opacity: 0.6;
+}
+.footer{
+    background-color: rgb(21,29,101);
+}
+.footer .footlist li , .foot1 ul li {
+    list-style: none;
+}
+.links li{
+    color: white;
+}
+.links li a{
+    color: white;
+}
+.foot ul li{
+    list-style: none;
+    
+}
+.divider1 a{
+    color: white;
+    font-size: large;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 3px 12px;
+}
+.divider1 .anchor a:hover{
+    color:1px solid #ccc;
+}
+.foot1 ul li a:hover{
+    color: grey;
+    text-decoration: none;
+}
+.divider1 .anchor .facebook a:hover{
+    background-color: rgb(72,103,170);
+}
+.divider1 .anchor .twitter a:hover{
+    background-color: rgb(86,215,254);
+}
+.divider1 .anchor .google a:hover{
+    background-color: rgb(220,78,65);
+}
+.divider1 .anchor .linkedin a:hover{
+    background-color: rgb(1,119,181);
+}
+.text-white{
+    color: white;
+    font-size: 3rem;
+}
+.float-right .drop-btn{
+    background-color: white;
+    border: none;
+    width: 150px;
+    padding: 10px 0px;
+}
+.float .dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    position: absolute;
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .category a{
+      text-decoration: none;
+      color: black;
+  }
+  .category a:hover{
+      color: #ffb400;
+  }
+a{
+      
+     border-width: 30px;
+  }
+ .info1 h1{
+      color:white;
+      font-size: 40px;
+  }
+ .info1 .home h6{
+      color: white;
+      
+  }
+  .info1 .home a{
+      color: white;
+      text-decoration: none;
+  }
+  .info1 .home a:hover{
+      color:#ffb400 ;
+  }
+  .data input{
+      margin-bottom: 20px;
+      padding: 5px 10px;
+      border: none;
+      
+  }
+  .submit{
+      background-color: #ffb400;
+      width: 170px;
+      height: 50px;
+      border: none;
+      
+  }
+  .submit:hover{
+      background-color: #ffbd22;
+
+  }    
+      
+  
+  form{
+      text-align: center;
+  }
+ .form-group textarea{
+      border: none;
+  }
+  .icon-pg i{
+      color: #ffb400;
+      font-size: 30px;
+      padding-top: 10px;
+      
+  }
+  .icon-pg {
+      padding-left: 30px;
+      margin-bottom: 80px;
+      
+  }
+  .seperator{
+    color: white;
+    font-size: large;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 3px 12px;
+}
+  .seperator .facebook a{
+    background-color: rgb(72,103,170);
+  }
+  .seperator .twitter a{
+    background-color: rgb(86,215,254)
+  }
+  .seperator .google a{
+    background-color: rgb(220,78,65)
+  }
+  .seperator .linkedin a{
+    background-color: rgb(1,119,181)
+  }
+  .question .quest i{
+      padding: 10px 10px;
+      width: 30px;
+  }
+  .question .quest .facebook{
+      background-color:rgb(72,103,170);
+  }
+  .question .quest .linkedin{
+    background-color: rgb(1,119,181);
+  }
+  .question .quest .google{
+    background-color:rgb(220,78,65);
+  }
+  .question .quest .twitter{
+    background-color:rgb(86,215,254);
+  }
